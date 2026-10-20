@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suhyung Son</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Benne&family=Italiana&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <nav class="nav">
+            <button id="menu_close_btn" type="button">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.2" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg>
+            </button>
+            <ul class="nav_li">
+                <li class="nav_home"><a href="#home">Home</a></li>
+                <li class="menu_bar">|</li>
+                <li class="nav_about"><a href="#about">About</a></li>
+                <li class="menu_bar">|</li>
+                <li class="nav_projects"><a href="#projects">Projects</a></li>
+                <li class="menu_bar">|</li>
+                <li class="nav_contact"><a href="#contact">Contact</a></li>
+            </ul>
+            <ul class="social_li">
+                <li class="github"><a href="" target="_blank">GITHUB</a></li>
+                <li>|</li>
+                <li class="linkedin"><a href="" target="_blank">LINKEDIN</a></li>
+            </ul>
+        </nav>
+        <button id="menu_btn" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+        </button>
+    </header>
+     
+    <!-- home -->
+    <section id="home" data-theme="light" class="home">
+        <div class="title">
+            <div class="icon">
+                <img src="img/home-icon.png" alt="home-icon">
+            </div>
+            <div class="sliding_text">
+                <div class="sliding_text_wrap">
+                    <span class="sliding_text_item">Front-End Developer + Web Publisher + UX/UI Designer +</span>
+                    <span class="sliding_text_item" aria-hidden="true">Front-End Developer + Web Publisher + UX/UI Designer +</span>
+                </div>
+            </div>
+            <!-- <div class="name">Suhyung Son</div> -->
+            <div class="name_wrap">
+                <span class="name main" id="nameMain">Suhyung Son</span>
+                <span class="name ghost" id="nameGhost">Suhyung Son</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section id="about"></section>
+    <section id="about-01" data-theme="light" class="about">
+        <div class="about_wrap">
+            <div class="img_box">
+                <div class="icon">
+                    <img src="img/about-icon.png" alt="about-icon">
+                </div>
+                <div class="img">
+                    <img src="img/about-img.jpg" alt="about-img">
+                </div>
+            </div>
+            <div class="txt_box">
+                <p>
+                    I'm a front-end developer & UX/UI designer focused on building intuitive and user-centered web experiences.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="about-02" data-theme="light" class="about">
+        <div class="about_wrap">
+            <div class="skills_box">
+                <div class="icon">
+                    <img src="img/about-icon.png" alt="about-icon">
+                </div>
+                <p>Skills</p>
+                <div class="skills">
+                    <div class="donut_board" id="donutBoard"></div>
+                </div>
+            </div>
+            <div class="info_wrap">
+                <div class="info_box">
+                    <div class="info">
+                        <span class="date">2022.04 - 2024.05</span>
+                        <p class="title">Front-End Developer & Web Publisher · Chatis, Korea</p>
+                        <p class="sub_txt">
+                            <span>• Developed front-end features for an e-commerce platform using JavaScript and Vue.js in a Laravel environment</span>
+                            <span>• Contributed to UX/UI design for web-based applications and admin interfaces</span>
+                            <span>• Created visual assets including banners and icons, and supported design system development</span>
+                        </p>
+                    </div>
+                    <div class="info">
+                        <span class="date">2021.10 - 2022.03</span>
+                        <p class="title">Web Design (UX/UI) & Web publishing - Digital Skills Training Program · Korea</p>
+                        <p class="sub_txt">
+                            <span>• Gained foundational skills in web publishing using HTML, CSS, and jQuery</span>
+                            <span>• Studied fundamental web design principles and UX/UI concepts, with an understanding of layout and style guide development</span>
+                            <span>• Completed projects including website redesigns and responsive web publishing</span>
+                        </p>
+                    </div>
+                    <div class="info">
+                        <span class="date">2016.08 - 2017.01</span>
+                        <p class="title">Part-time Server · Ippudo, Australia</p>
+                        <p class="sub_txt">
+                            <span>• Provided customer service, strengthening communication skills</span>
+                            <span>• Managed orders and tasks efficiently in a fast-paced environment, demonstrating strong multitasking and adaptability</span>
+                            <span>• Handled POS systems for payments and order processing while following operational procedures</span>
+                        </p>
+                    </div>
+                    <div class="info">
+                        <span class="date">2011.03 - 2016.02</span>
+                        <p class="title">BA in Japanese Language & Literature · Dong-Eui University, Korea</p>
+                        <p class="sub_txt">
+                            <span>• Developed analytical and language-based communication skills through the study of Japanese language and literature</span>
+                        </p>
+                    </div>
+                </div>
+
+                <button class="scroll_hint" type="button" data-scroll="#goDown">
+                    <img src="img/about-icon02.png" alt="about-icon02" />
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- project -->
+    <section id="projects"></section>
+    <section id="project-01" data-theme="dark" class="project effect_section">
+        <div class="paper_box">
+            <div class="paper_inner">
+                <div class="title_area">
+                    <div class="icon">
+                        <img src="img/front-projects-icon.png" alt="front-projects-icon">
+                    </div>
+                    <div class="txt">
+                        <p>Front-end</p>
+                        <p>Projects</p>
+                    </div>
+                </div>
+                <!-- font-end projects -->
+                <ul class="projects_area">
+                    <li>
+                        <a class="project_box" href="https://store.cafe24.com/kr/apps/15706" target="_blank" data-img="img/giftin.png">
+                            <div class="txt_area">
+                                <p class="title">Giftin</p>
+                                <p class="sub">E-commerce Web App</p>
+                                <ul class="tags">
+                                    <li class="tag">Frontend</li>
+                                    <li class="tag">UX/UI Design</li>
+                                    <li class="tag">Visual Design</li>
+                                </ul>
+                            </div>
+
+                            <div class="arrow_box">
+                                <img src="img/arrow.png" alt="arrow">
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="project_box" href="https://store.cafe24.com/kr/apps/20694" target="_blank" data-img="img/various-shipping.png">
+                            <div class="txt_area">
+                                <p class="title">Various shipping</p>
+                                <p class="sub">E-commerce Web App</p>
+                                <ul class="tags">
+                                    <li class="tag">Frontend</li>
+                                    <li class="tag">UX/UI Design</li>
+                                    <li class="tag">Visual Design</li>
+                                </ul>
+                            </div>
+
+                            <div class="arrow_box">
+                                <img src="img/arrow.png" alt="arrow">
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="project_box" href="https://store.cafe24.com/kr/apps/14838" target="_blank" data-img="img/plus-widget.png">
+                            <div class="txt_area">
+                                <p class="title">Product Detail<br/>Plus Widget</p>
+                                <p class="sub">E-commerce Web App</p>
+                                <ul class="tags">
+                                    <li class="tag">Frontend</li>
+                                    <li class="tag">UX/UI Design</li>
+                                    <li class="tag">Visual Design</li>
+                                </ul>
+                            </div>
+
+                            <div class="arrow_box">
+                                <img src="img/arrow.png" alt="arrow">
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="project_box" href="https://store.cafe24.com/kr/apps/19717" target="_blank" data-img="img/link-linker.png">
+                            <div class="txt_area">
+                                <p class="title">Link-Linker</p>
+                                <p class="sub">E-commerce Web App</p>
+                                <ul class="tags">
+                                    <li class="tag">Frontend</li>
+                                    <li class="tag">UX/UI Design</li>
+                                    <li class="tag">Visual Design</li>
+                                </ul>
+                            </div>
+
+                            <div class="arrow_box">
+                                <img src="img/arrow.png" alt="arrow">
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="project-02" data-theme="light" class="project effect_section">
+        <div class="paper_box">
+            <div class="paper_inner">
+                <div class="title_area">
+                    <div class="icon">
+                        <img src="img/home-icon.png" alt="publishing-projects-icon">
+                    </div>
+                    <div class="txt">
+                        <p>Web Publishing</p>
+                        <p>Projects</p>
+                    </div>
+                </div>
+                <!-- web publishing projects -->
+                <ul class="projects_area">
+                    <li>
+                        <a class="project_box" href="https://chatis.kr/" target="_blank" data-img="img/chatis.png">
+                            <div class="txt_area">
+                                <p class="title">Chatis</p>
+                                <p class="sub">
+                                    E-commerce Solutions Company, Korea
+                                    <span style="display: block; margin: 3px 0; font-size: xx-small;">*The page has been redesigned. The original version I worked on is no longer accessible.</span>
+                                </p>
+                                <ul class="tags">
+                                    <li class="tag">Publishing</li>
+                                    <li class="tag">UX/UI Design</li>
+                                </ul>
+                            </div>
+
+                            <div class="arrow_box">
+                                <img src="img/arrow-red.png" alt="arrow-red">
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="project_box" href="https://biorga.co.kr/" target="_blank" data-img="img/biorga.png">
+                            <div class="txt_area">
+                                <p class="title">Biorga</p>
+                                <p class="sub">Skincare Brand, Korea</p>
+                                <ul class="tags">
+                                    <li class="tag">Template-based publishing</li>
+                                </ul>
+                            </div>
+
+                            <div class="arrow_box">
+                                <img src="img/arrow-red.png" alt="arrow-red">
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="project_box" href="https://vancor.co.kr/" target="_blank" data-img="img/vancor.png">
+                            <div class="txt_area">
+                                <p class="title">Vancor</p>
+                                <p class="sub">Skincare Brand, Korea</p>
+                                <ul class="tags">
+                                    <li class="tag">Template-based publishing</li>
+                                </ul>
+                            </div>
+
+                            <div class="arrow_box">
+                                <img src="img/arrow-red.png" alt="arrow-red">
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="project_box" href="https://odeloi.com/" target="_blank" data-img="img/odeloi.png">
+                            <div class="txt_area">
+                                <p class="title">Odeloi</p>
+                                <p class="sub">Skincare Brand, Korea</p>
+                                <ul class="tags">
+                                    <li class="tag">Template-based publishing</li>
+                                </ul>
+                            </div>
+
+                            <div class="arrow_box">
+                                <img src="img/arrow-red.png" alt="arrow-red">
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact" data-theme="light" class="contact">
+        <div class="contact_wrap">
+            <div class="txt_contact">
+                <p>
+                    Thank you for taking a look at my work.</br>
+                    If you'd like to get in touch, feel free to email me.
+                </p>
+                <a href="mailto:suhyungsonn@gmail.com">suhyungsonn@gmail.com</a>
+            </div>
+            <div class="icon">
+                <img src="img/about-icon.png" alt="about-img">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer id="footer">
+        <ul class="footer_list">
+            <li><a href="/" target="_blank">GITHUB</a></li>
+            <li>|</li>
+            <li><a href="/" target="_blank">LINKEDIN</a></li>
+        </ul>
+    </footer>
+
+    
+
+    <div class="project_preview" id="projectPreview" aria-hidden="true">
+        <img id="projectPreviewImg" alt="preview">
+    </div>
+
+
+    <!-- js -->
+    <script type="module" src="js/index.js"></script>
+</body>
+</html>
