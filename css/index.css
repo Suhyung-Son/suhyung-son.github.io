@@ -25,10 +25,14 @@
     --heading-m-04: normal 400 20px "Italiana", serif;
 }
 
+html,
+body {
+    background-color: var(--neutral-color);
+}
+
 body {
     padding: 0;
     margin: 0;
-    background-color: var(--neutral-color);
     font-family: "Benne", serif;
 }
 section { box-sizing: border-box; }
@@ -526,7 +530,7 @@ nav.nav_contact .nav_contact {
     margin: 0 6px;
 }
 .project .projects_area {
-    margin: 50px 0 0 0;
+    margin: 50px auto 0;
     width: calc(60% - 48px);
     padding-bottom: 100px;
 }
@@ -839,7 +843,7 @@ footer.theme-light {
         height: 40px;
     }
     .project .projects_area {
-        margin: 30px 0 0 0;
+        margin: 30px auto 0;
     }
     .project .title_area .txt>p {
         font: var(--heading-m-01);
