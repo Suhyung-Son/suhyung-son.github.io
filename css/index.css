@@ -681,12 +681,17 @@ footer.theme-light {
     .nav {
         display: none;
         position: fixed;
-        top: 0;
+        top: 1px;
+        bottom: 1px;
         left: 0;
         width: 100%;
-        height: 100vh;
+        height: auto;
         background-color: var(--base-color);
         z-index: 9999;
+        
+        box-shadow:
+            0 -1px 0 var(--base-color),
+            0 1px 0 var(--base-color);
 
         /* closed */
         transform: translateX(100%);
@@ -857,6 +862,9 @@ footer.theme-light {
         position: absolute;
         top: 60vh;
         left: 0;
+    }
+    .paper_inner {
+        box-shadow: 0 -14px 28px rgba(0, 0, 0, 0.08);
     }
 
     /* project preview */
